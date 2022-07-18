@@ -10,8 +10,19 @@
 /* common style */
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
 
 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+    width: 870px;
 }
 
 /* top player style */
