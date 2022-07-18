@@ -9,3 +9,18 @@ body {
 
 
 }
+
+/* top player style */
+.top-players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+    display: flex;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
