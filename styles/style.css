@@ -17,7 +17,8 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container {
@@ -28,6 +29,7 @@ main {
 
 hr {
     border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
 
 }
 
@@ -39,6 +41,10 @@ hr {
     line-height: 36px;
     margin: 3px;
 
+}
+
+.top-players {
+    margin-bottom: 30px;
 }
 
 .players {
@@ -62,4 +68,42 @@ hr {
 .player-name {
     margin-left: 16px;
     font-size: 18px;
+}
+
+/* ------------
+top blog styles
+--------------- */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+
+}
+
+.blog {
+    display: flex;
+}
+
+.blog .thumbnail img {
+    width: 224px;
+    height: 127px;
+}
+
+.blog-info {
+    margin-left: 16px
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.blog-author {
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+.blog-author a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
 }
