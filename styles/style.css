@@ -1,9 +1,13 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* common style */
 body {
     font-family: 'Poppins', sans-serif;
 
@@ -18,6 +22,7 @@ body {
 
 .player {
     display: flex;
+    align-items: center;
 }
 
 .player img {
